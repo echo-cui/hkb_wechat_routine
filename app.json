@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/hkb_wechat_homepage/wechat_homepage_main",
+    "pages/hkb_wechat_bill/wechat_bill_check",
+    "pages/hkb_wechat_mall/wechat_welfare_mall",
+    "pages/hkb_wechat_mine/wechat_mine_personal",
+    "pages/hkb_wechat_details/wechat_seller_details"
+  ],
+
+  "window":{
+
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "汇卡宝",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
+
+  },
+
+  "tabBar":{
+    "color": "#8a8a8a",
+    "selectedColor": "#f39800",
+    "borderStyle": "#b2b2b2",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/hkb_wechat_homepage/wechat_homepage_main",
+      "iconPath": "images/icon/icon_homepage_grey.png",
+      "selectedIconPath": "images/icon/icon_homepage_orange.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/hkb_wechat_mall/wechat_welfare_mall",
+      "iconPath": "images/icon/icon_mall_grey.png",
+      "selectedIconPath": "images/icon/icon_mall_orange.png",
+      "text": "福利商城"
+    }, {
+      "pagePath": "pages/hkb_wechat_mine/wechat_mine_personal",
+      "iconPath": "images/icon/icon_mine_grey.png",
+      "selectedIconPath": "images/icon/icon_mine_orange.png",
+      "text": "我的"
+    }]
+  }
+}
+
